@@ -1,0 +1,24 @@
+.list-item{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    display: flex;
+    font-weight: 500;
+    cursor: pointer;
+}
+.todo{
+    margin-left: 1rem;
+}
+.line:before{
+    display: block;
+    content: '';
+    border: 1px solid red;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+}
+.fade{
+    color: gray;
+}

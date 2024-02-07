@@ -1,0 +1,18 @@
+form{
+    width: 90%;
+    margin: 0.5rem 0 1rem 0;
+    height: 30px;
+}
+form input{
+    width: 100%;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 4px;
+    height: 100%;
+    outline: none;
+    font-weight: normal;
+
+}
+form input::placeholder{
+    text-align: center;
+}

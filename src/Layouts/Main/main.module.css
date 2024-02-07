@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    flex-direction: column;
+    margin: 7.25rem auto 0 auto;
+}
+
+@media (min-width: 769px) {
+    main{
+        width: 65%;
+    }
+}
+@media (min-width: 1280px) {
+    main{
+        width: 40%;
+    }
+}
